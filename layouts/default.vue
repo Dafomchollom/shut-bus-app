@@ -1,6 +1,6 @@
 <template>
   <div
-    class="min-h-screen bg-green-500 text-gray-700 dark:bg-black dark:text-purple-50"
+    class="min-h-screen bg-gray-200 dark:bg-gray-900 ease-in-out duration-500"
   >
     <app-navbar />
     <nuxt />
@@ -30,7 +30,7 @@ export default Vue.extend({
     },
   },
   beforeMount() {
-    this.$store.dispatch('initTheme')
+    this.$store.dispatch('theme/initTheme')
   },
 })
 </script>
