@@ -9,6 +9,7 @@
       class="my-1 bg-white border border-gray-300 text-gray-900 text-sm rounded block w-full p-2 dark:placeholder-gray-400"
       name=""
       :value="value"
+      :placeholder="placeholder"
       @blur="$emit('blur', $event)"
       @input="$emit('input', $event.target.value)"
     />
@@ -23,6 +24,10 @@ export default Vue.extend({
   name: 'AppInputComponent',
   props: {
     title: {
+      type: String,
+      default: '',
+    },
+    placeholder: {
       type: String,
       default: '',
     },
