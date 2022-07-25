@@ -42,6 +42,7 @@
     <div class="flex w-full justify-center mt-8">
       <button
         class="text-sm w-60 py-3 rounded flex gap-x-1 items-center justify-center bg-blue-500 text-white"
+        @click="theme(1)"
       >
         View prices
         <svg
@@ -64,6 +65,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import { mapMutations } from 'vuex'
 import AppDatePickerComponent from './input_components/AppDatePickerComponent.vue'
 import AppInputComponent from './input_components/AppInputComponent.vue'
 import AppNumberInputComponent from './input_components/AppNumberInputComponent.vue'
@@ -78,6 +80,11 @@ export default Vue.extend({
     AppDatePickerComponent,
     AppSelectComponent,
     AppNumberInputComponent,
+  },
+  methods: {
+    ...mapMutations({
+      theme: 'theme/SET_INDEX',
+    }),
   },
 })
 </script>

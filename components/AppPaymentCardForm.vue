@@ -1,13 +1,25 @@
 <template>
   <div class="px-7 py-10 rounded bg-white dark:bg-gray-100">
     <h3 class="text-center font-bold text-xl mb-4">Payment Details</h3>
-
+    <div
+      class="text-sm font-medium text-center w-auto text-black border-b border-gray-200 dark:text-gray-100 dark:border-gray-700 mb-5"
+    >
+      <ul class="flex flex-wrap -mb-px">
+        <li class="mr-2">
+          <a
+            href="#"
+            class="inline-block px-4 py-2 text-blue-600 rounded-t-lg border-b-2 border-blue-600 active dark:text-blue-500 dark:border-blue-500"
+            aria-current="page"
+            >Pay now</a
+          >
+        </li>
+      </ul>
+    </div>
+    <p class="text-gray-500 text-sm mb-5">
+      Enter your credit details and pay for your trip in full today
+    </p>
     <div class="mb-2">
-      <app-input-component
-        id="address_two"
-        title="Address Line 2"
-        type="text"
-      />
+      <app-input-component id="card_number" title="Card number" type="text" />
     </div>
     <div class="grid grid-cols-3 gap-x-3 mb-2 w-full">
       <app-input-component id="cvc" title="CVC" type="text" />
@@ -42,7 +54,9 @@
       </svg>
       <div>
         <h3 class="font-bold">Secure credit card payment</h3>
-        <p>This is a secure 128-bit SSL encrypted payment</p>
+        <p class="text-gray-500 text-xs">
+          This is a secure 128-bit SSL encrypted payment
+        </p>
       </div>
     </div>
 

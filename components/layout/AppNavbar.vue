@@ -12,7 +12,7 @@
     </div>
     <div class="flex justify-center">
       <div
-        class="text-sm font-medium text-center w-auto text-black border-b border-gray-200 dark:text-gray-100 dark:border-gray-700"
+        class="hidden lg:block text-sm font-medium text-center w-auto text-black border-b border-gray-200 dark:text-gray-100 dark:border-gray-700"
       >
         <ul class="flex flex-wrap -mb-px">
           <li class="mr-2">
