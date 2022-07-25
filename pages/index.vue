@@ -1,6 +1,7 @@
 <template>
   <div>
-    <AppTripBuilderComponent />
+    <!-- <AppTripBuilderComponent /> -->
+    <AppCheckoutComponent />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ export default Vue.extend({
   components: {
     AppTripBuilderComponent: () =>
       import('@/components/AppTripBuilderComponent.vue'),
+    AppCheckoutComponent: () => import('@/components/AppCheckoutComponent.vue'),
   },
 })
 </script>

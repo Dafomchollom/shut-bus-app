@@ -1,5 +1,5 @@
 <template>
-  <div class="footer rounded bg-white">
+  <div class="footer rounded bg-white max-w-2xl mx-auto">
     <div class="h-28 w-full header border-b-4 border-blue-500 px-10 py-5">
       <h3 class="font-bold text-xl">Need help with your booking</h3>
       <p class="">
