@@ -1,9 +1,11 @@
 <template>
   <div
-    class="min-h-screen bg-gray-200 dark:bg-gray-900 ease-in-out duration-500"
+    class="min-h-screen bg-gray-100 dark:bg-gray-900 ease-in-out duration-500"
   >
     <app-navbar />
-    <nuxt />
+    <div class="px-5 py-10">
+      <nuxt />
+    </div>
   </div>
 </template>
 
