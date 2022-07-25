@@ -1,7 +1,7 @@
 <template>
   <div>
-    <AppTripBuilderComponent />
-    <!-- <AppCheckoutComponent /> -->
+    <!-- <AppTripBuilderComponent /> -->
+    <AppCheckoutComponent />
   </div>
 </template>
 
@@ -11,8 +11,8 @@ import Vue from 'vue'
 export default Vue.extend({
   name: 'IndexPage',
   components: {
-    AppTripBuilderComponent: () =>
-      import('@/components/AppTripBuilderComponent.vue'),
+    // AppTripBuilderComponent: () =>
+    //   import('@/components/AppTripBuilderComponent.vue'),
     AppCheckoutComponent: () => import('@/components/AppCheckoutComponent.vue'),
   },
 })
