@@ -1,5 +1,5 @@
 <template>
-  <div class="footer rounded bg-white max-w-2xl mx-auto">
+  <div class="footer rounded bg-white max-w-2xl mx-auto relative">
     <div class="h-28 w-full header border-b-4 border-blue-500 px-10 py-5">
       <h3 class="font-bold text-xl">Need help with your booking</h3>
       <p class="">
@@ -82,8 +82,8 @@
       <div class="flex">
         <div>
           <button
-            id="dropdownDefault"
-            data-dropdown-toggle="dropdown"
+            id="dropdownDefault1"
+            data-dropdown-toggle="dropdown1"
             class="text-black flex items-center bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm pb-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             type="button"
           >
@@ -104,7 +104,7 @@
               ></path>
               <polygon points="12 15 17 21 7 21 12 15"></polygon>
             </svg>
-            Dropdown button
+            Payment and policies
             <svg
               class="ml-2 w-4 h-4"
               aria-hidden="true"
@@ -123,7 +123,7 @@
           </button>
           <!-- Dropdown menu -->
           <div
-            id="dropdown"
+            id="dropdown1"
             class="z-10 w-44 bg-white rounded divide-y divide-gray-100 dark:bg-gray-700 block"
             data-popper-reference-hidden=""
             data-popper-escaped=""
@@ -167,8 +167,8 @@
       <div class="flex">
         <div>
           <button
-            id="dropdownDefault"
-            data-dropdown-toggle="dropdown"
+            id="dropdownDefault2"
+            data-dropdown-toggle="dropdown2"
             class="text-black flex items-center bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm pb-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             type="button"
           >
@@ -188,7 +188,7 @@
                 d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
               ></path>
             </svg>
-            Dropdown button
+            Common questions
             <svg
               class="ml-2 w-4 h-4"
               aria-hidden="true"
@@ -207,7 +207,7 @@
           </button>
           <!-- Dropdown menu -->
           <div
-            id="dropdown"
+            id="dropdown2"
             class="z-10 w-44 bg-white rounded divide-y divide-gray-100 dark:bg-gray-700 block"
             data-popper-reference-hidden=""
             data-popper-escaped=""
@@ -220,7 +220,7 @@
             "
           >
             <ul
-              class="py-1 pl-3 text-sm text-gray-700 dark:text-gray-200"
+              class="hidden py-1 pl-3 text-sm text-gray-700 dark:text-gray-200"
               aria-labelledby="dropdownDefault"
             >
               <li>

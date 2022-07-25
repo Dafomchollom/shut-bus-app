@@ -8,7 +8,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import { mapState } from 'vuex'
+import { mapState, mapMutations } from 'vuex'
 export default Vue.extend({
   name: 'IndexPage',
   components: {
@@ -36,6 +36,11 @@ export default Vue.extend({
         console.log(newVal, '::::: newVal :::::')
       },
     },
+  },
+  methods: {
+    ...mapMutations({
+      theme: 'theme/SET_INDEX',
+    }),
   },
 })
 </script>
