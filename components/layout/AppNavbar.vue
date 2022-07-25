@@ -1,6 +1,6 @@
 <template>
   <div
-    class="grid grid-cols-3 gap-3 w-full pt-4 px-4 items-center ease-in-out duration-500 bg-white dark:bg-black"
+    class="grid grid-cols-3 gap-3 w-full pt-4 px-4 items-center ease-in-out duration-500 drop-shadow-2xl bg-white dark:bg-black"
   >
     <div>
       <img
