@@ -65,7 +65,7 @@
             "
           >
             <ul
-              class="py-1 pl-3 text-sm text-gray-700 dark:text-gray-200"
+              class="hidden py-1 pl-3 text-sm text-gray-700 dark:text-gray-200"
               aria-labelledby="dropdownDefault"
             >
               <li>
@@ -136,7 +136,7 @@
             "
           >
             <ul
-              class="py-1 pl-3 text-sm text-gray-700 dark:text-gray-200"
+              class="hidden py-1 pl-3 text-sm text-gray-700 dark:text-gray-200"
               aria-labelledby="dropdownDefault"
             >
               <li>
