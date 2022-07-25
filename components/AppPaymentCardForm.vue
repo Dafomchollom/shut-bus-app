@@ -41,7 +41,7 @@
         <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
       </svg>
       <div>
-        <h3>Secure credit card payment</h3>
+        <h3 class="font-bold">Secure credit card payment</h3>
         <p>This is a secure 128-bit SSL encrypted payment</p>
       </div>
     </div>

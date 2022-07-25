@@ -1,7 +1,7 @@
 <template>
   <div>
-    <!-- <AppTripBuilderComponent /> -->
-    <AppCheckoutComponent />
+    <AppTripBuilderComponent />
+    <!-- <AppCheckoutComponent /> -->
   </div>
 </template>
 
